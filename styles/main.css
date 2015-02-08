@@ -1,0 +1,11 @@
+#app .container {
+    width: 850px;
+    position: relative;
+    margin: 0px auto;
+}
+
+textarea.comment {
+    height: 4em !important;
+    min-height: 2em !important;
+    margin-bottom: 1em !important;
+}
