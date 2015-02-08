@@ -6,25 +6,25 @@ var React = require('react'),
 var Wall  = React.createClass({
     getInitialState: function() {
         return {
-            title: 'My Wall',
+            title: 'Adi\'s Wall',
             posts: [{
                 id: 0,
-                text: "Hi There",
+                text: "Hello World",
                 comments: [{
                     id: 1,
-                    text: '123'
-                },{
-                    id: 2,
-                    text: '123 123'
+                    text: 'plzz no'
                 }]
             },{
                 id: 1,
-                text: "Hello World",
+                text: "Adi learning React",
                 comments: []
             },{
                 id: 2,
                 text: "This is awesome",
-                comments: []
+                comments: [{
+                    id: 1,
+                    text: "Yes. it Rocks"
+                }]
             }]
         };
     },
