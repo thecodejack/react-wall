@@ -1,4 +1,3 @@
-/** @jsx React.DOM */
 var React = require('react'),
     Post = require('./Post'),
     modelPost = require('./model/post');

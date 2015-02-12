@@ -18286,7 +18286,6 @@ process.chdir = function (dir) {
 process.umask = function() { return 0; };
 
 },{}],"/Users/srikanth/Dropbox/react/react-wall/src/Comment.js":[function(require,module,exports){
-/** @jsx React.DOM */
 var React = require('react');
 
 var comment = React.createClass({displayName: "comment",
@@ -18303,7 +18302,6 @@ module.exports = comment;
 
 
 },{"react":"/Users/srikanth/Dropbox/react/react-wall/node_modules/react/react.js"}],"/Users/srikanth/Dropbox/react/react-wall/src/Post.js":[function(require,module,exports){
-/** @jsx React.DOM */
 var React = require('react'),
     Comment = require('./Comment');
 
@@ -18385,7 +18383,6 @@ module.exports = Post;
 
 
 },{"./Comment":"/Users/srikanth/Dropbox/react/react-wall/src/Comment.js","react":"/Users/srikanth/Dropbox/react/react-wall/node_modules/react/react.js"}],"/Users/srikanth/Dropbox/react/react-wall/src/Wall.js":[function(require,module,exports){
-/** @jsx React.DOM */
 var React = require('react'),
     Post = require('./Post'),
     modelPost = require('./model/post');
