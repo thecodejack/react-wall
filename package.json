@@ -12,11 +12,11 @@
   "devDependencies": {
     "react-tools": "^0.12.2",
     "reactify": "^1.0.0",
-    "watchify": "^2.3.0"
-  },
-  "dependencies": {
-    "react": "^0.12.2",
+    "watchify": "^2.3.0",
     "connect": "*",
     "serve-static": "*"
+  },
+  "dependencies": {
+    "react": "^0.12.2"
   }
 }
